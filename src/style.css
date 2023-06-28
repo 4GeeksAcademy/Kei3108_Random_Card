@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #0e7e12;
+}
+
+#card {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  margin: 5% auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.suit {
+  font-size: 75px; /* Aumenta el tamaño de la fuente para los suits */
+}
+
+#topSuit {
+  color: black;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+#number {
+  color: black;
+  font-size: 100px; /* Aumenta el tamaño de la fuente para los números */
+  text-align: center;
+  margin-top: -10px; /* Ajusta la posición verticalmente */
+}
+
+#bottomSuit {
+  color: black;
+  align-self: flex-end;
+  margin-bottom: 5%;
+  margin-right: 10px;
+}
+
+#floatingHeight {
+  margin-top: 5px;
+  width: 100%;
+}
+
+#floatingWidth {
+  margin-top: 5px;
+  width: 100%;
+}
